@@ -188,6 +188,8 @@ return [
     'aliases' => Facade::defaultAliases()->merge([
         // 'Example' => App\Facades\Example::class,
         'Form'   => \Collective\Html\FormFacade::class
+        'Metronic' => App\Kobiyim\Metronic\Metronic::class,
+        'Menu'     => App\Kobiyim\Metronic\Menu::class,
     ])->toArray(),
 
 ];
