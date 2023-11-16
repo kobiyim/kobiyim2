@@ -168,10 +168,6 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-
-        Kobiyim\Providers\KobiyimServiceProvider::class,
-        Kobiyim\Providers\AuthServiceProvider::class,
-        Kobiyim\Providers\RouteServiceProvider::class,
     ])->toArray(),
 
     /*
@@ -188,8 +184,8 @@ return [
     'aliases' => Facade::defaultAliases()->merge([
         // 'Example' => App\Facades\Example::class,
         'Form'   => \Collective\Html\FormFacade::class,
-        'Metronic' => Kobiyim\Metronic\Metronic::class,
-        'Menu'     => Kobiyim\Metronic\Menu::class,
+        'Metronic' => App\Metronic\Metronic::class,
+        'Menu'     => App\Metronic\Menu::class,
     ])->toArray(),
 
 ];
