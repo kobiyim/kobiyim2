@@ -1,8 +1,8 @@
 <?php
 
-namespace Kobiyim\Auth\Services;
+namespace App\Auth\Services;
 
-use Kobiyim\Auth\Http\Responses\LockoutResponse;
+use App\Auth\Http\Responses\LockoutResponse;
 use Illuminate\Auth\Events\Lockout;
 
 class EnsureLoginIsNotThrottled

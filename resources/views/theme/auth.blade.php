@@ -35,7 +35,7 @@
 	<body {{ Metronic::printAttrs('body') }} {{ Metronic::printClasses('body') }}>
 
 		@if (config('layout.page-loader.type') != '')
-			@include('kobiyim::theme.layout.partials._page-loader')
+			@include('theme.layout.partials._page-loader')
 		@endif
 
 		<div class="d-flex flex-column flex-root">

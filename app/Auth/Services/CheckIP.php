@@ -1,6 +1,6 @@
 <?php
 
-namespace Kobiyim\Auth\Services;
+namespace App\Auth\Services;
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Contracts\Auth\StatefulGuard;

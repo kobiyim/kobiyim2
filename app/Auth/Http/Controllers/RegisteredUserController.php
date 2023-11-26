@@ -1,17 +1,23 @@
 <?php
 
-namespace Kobiyim\Auth\Http\Controllers;
+/**
+ * Güncelleme Notları
+ * @version v1.0.0
+ * İlk yayına alınan versiyon
+ */
 
-use Kobiyim\Http\Controllers\Controller;
-use Kobiyim\Auth\Http\Requests\RegisterRequest;
-use Kobiyim\Auth\Services\CreatesNewUsers;
+namespace App\Auth\Http\Controllers;
+
+use App\Http\Controllers\Controller;
+use App\Auth\Http\Requests\RegisterRequest;
+use App\Auth\Services\CreatesNewUsers;
 use Illuminate\Http\Request;
 
 class RegisteredUserController extends Controller
 {
     public function create(Request $request)
     {
-        return view('kobiyim::auth.register');
+        return view('kobiyim.auth.register');
     }
 
     public function store(RegisterRequest $request, CreatesNewUsers $creator)

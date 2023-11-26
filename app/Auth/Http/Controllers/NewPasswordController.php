@@ -1,9 +1,15 @@
 <?php
 
-namespace Kobiyim\Auth\Http\Controllers;
+/**
+ * Güncelleme Notları
+ * @version v1.0.0
+ * İlk yayına alınan versiyon
+ */
 
-use Kobiyim\Http\Controllers\Controller;
-use App\Kobiyim\Models\User;
+namespace App\Auth\Http\Controllers;
+
+use App\Http\Controllers\Controller;
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 
@@ -45,7 +51,7 @@ class NewPasswordController extends Controller
 
             return redirect('/')->with(['message' => 'Şifreniz sıfırlandı. Şimdi giriş yapabilirsiniz.']);
         } elseif ($user != null and $user->remember_expires_at > now()) {
-            return view('kobiyim::auth.reset-password');
+            return view('kobiyim.auth.reset-password');
         } else {
             return redirect()->route('password.reset')->with(['status' => 'Lütfen bilgilerinizi tekrar kontrol ediniz.']);
         }

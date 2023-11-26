@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * Güncelleme Notları
+ * @version v1.0.0
+ * İlk yayına alınan versiyon
+ */
+
 namespace App\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;

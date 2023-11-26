@@ -1,4 +1,4 @@
-@extends('kobiyim::theme.default')
+@extends('theme.default')
 
 @section('content')
 	<div class="row">

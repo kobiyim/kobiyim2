@@ -20,7 +20,7 @@
 
 				{{-- Dropdown --}}
 				<div class="dropdown-menu p-0 m-0 dropdown-menu-right dropdown-menu-anim-up dropdown-menu-lg">
-					@include('kobiyim::theme.partials.extras.dropdown._search-dropdown')
+					@include('theme.partials.extras.dropdown._search-dropdown')
 				</div>
 			</div>
 		@endif
@@ -48,7 +48,7 @@
 				{{-- Dropdown --}}
 				<div class="dropdown-menu p-0 m-0 dropdown-menu-right dropdown-menu-anim-up dropdown-menu-lg">
 					<form>
-						@include('kobiyim::theme.partials.extras.dropdown._notifications')
+						@include('theme.partials.extras.dropdown._notifications')
 					</form>
 				</div>
 			</div>
@@ -74,7 +74,7 @@
 
 				{{-- Dropdown --}}
 				<div class="dropdown-menu p-0 m-0 dropdown-menu-right dropdown-menu-anim-up dropdown-menu-lg">
-					@include('kobiyim::theme.partials.extras.dropdown._quick-actions')
+					@include('theme.partials.extras.dropdown._quick-actions')
 				</div>
 			</div>
 		@endif
@@ -93,7 +93,7 @@
 			{{-- Dropdown --}}
 			<div class="dropdown-menu p-0 m-0 dropdown-menu-right dropdown-menu-xl dropdown-menu-anim-up">
 				<form>
-					@include('kobiyim::theme.partials.extras.dropdown._cart')
+					@include('theme.partials.extras.dropdown._cart')
 				</form>
 			</div>
 		</div>
@@ -120,7 +120,7 @@
 			</div>
 
 			<div class="dropdown-menu p-0 m-0 dropdown-menu-anim-up dropdown-menu-sm dropdown-menu-right">
-				@include('kobiyim::theme.partials.extras.dropdown._languages')
+				@include('theme.partials.extras.dropdown._languages')
 			</div>
 		</div>
 	@endif
@@ -152,7 +152,7 @@
 
 				{{-- Dropdown --}}
 				<div class="dropdown-menu p-0 m-0 dropdown-menu-right dropdown-menu-anim-up dropdown-menu-lg p-0">
-					@include('kobiyim::theme.partials.extras.dropdown._user')
+					@include('theme.partials.extras.dropdown._user')
 				</div>
 			</div>
 		@endif

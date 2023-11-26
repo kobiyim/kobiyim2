@@ -1,14 +1,14 @@
 <?php
 
-namespace Kobiyim\Console\Commands;
+namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 use Spatie\DbDumper\Databases\MySql;
-use Kobiyim\Models\Backup;
+use App\Models\Backup;
 
 class UploadBackup extends Command
 {
-    protected $signature = 'kobiyim::upload-backup';
+    protected $signature = 'kobiyim:upload-backup';
 
     protected $description = 'Veritabanının yedeğini alın';
 

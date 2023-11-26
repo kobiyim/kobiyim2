@@ -1,8 +1,8 @@
-@extends('kobiyim::theme.auth')
+@extends('theme.auth')
 
 @section('content')
 	<div class="d-flex flex-center mb-10">
-		@include('logo.auth')
+		@include('kobiyim.logo.auth')
 	</div>
 	<div class="login-signin">
 		@if ($errors->any())

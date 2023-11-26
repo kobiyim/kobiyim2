@@ -18,7 +18,7 @@
 			{{-- Header Menu --}}
 			<div class="header-menu-wrapper header-menu-wrapper-left" id="kt_header_menu_wrapper">
 				@if(config('layout.aside.self.display') == false)
-					@include('logo.dashboard')
+					@include('kobiyim.logo.dashboard')
 				@endif
 
 				<div id="kt_header_menu" class="header-menu header-menu-mobile {{ Metronic::printClasses('header_menu', false) }}" {{ Metronic::printAttrs('header_menu') }}>
@@ -32,6 +32,6 @@
 			<div></div>
 		@endif
 
-		@include('kobiyim::theme.partials.extras._topbar')
+		@include('theme.partials.extras._topbar')
 	</div>
 </div>

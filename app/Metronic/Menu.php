@@ -1,6 +1,6 @@
 <?php
 
-namespace Kobiyim\Metronic;
+namespace App\Metronic;
 
 class Menu
 {

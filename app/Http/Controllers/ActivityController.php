@@ -1,8 +1,8 @@
 <?php
 
-namespace Kobiyim\Http\Controllers;
+namespace App\Http\Controllers;
 
-use Kobiyim\Models\ActivityLog;
+use App\Models\ActivityLog;
 use Illuminate\Http\Request;
 use Yajra\DataTables\Facades\DataTables;
 
@@ -10,7 +10,7 @@ class ActivityController extends Controller
 {
     public function index(Request $request)
     {
-        return view('kobiyim::system.activities');
+        return view('kobiyim.system.activities');
     }
 
     public function json(Request $request)

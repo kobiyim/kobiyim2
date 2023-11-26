@@ -1,13 +1,19 @@
 <?php
 
-namespace Kobiyim\Auth\Http\Controllers;
+/**
+ * Güncelleme Notları
+ * @version v1.0.0
+ * İlk yayına alınan versiyon
+ */
 
-use Kobiyim\Http\Controllers\Controller;
-use Kobiyim\Auth\Http\Requests\LoginRequest;
-use Kobiyim\Auth\Services\AttemptToAuthenticate;
-use Kobiyim\Auth\Services\EnsureLoginIsNotThrottled;
-use Kobiyim\Auth\Services\PrepareAuthenticatedSession;
-use Kobiyim\Auth\Services\CheckIP;
+namespace App\Auth\Http\Controllers;
+
+use App\Http\Controllers\Controller;
+use App\Auth\Http\Requests\LoginRequest;
+use App\Auth\Services\AttemptToAuthenticate;
+use App\Auth\Services\EnsureLoginIsNotThrottled;
+use App\Auth\Services\PrepareAuthenticatedSession;
+use App\Auth\Services\CheckIP;
 use Illuminate\Contracts\Auth\StatefulGuard;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Pipeline;
@@ -24,7 +30,7 @@ class AuthenticatedSessionController extends Controller
 
     public function create(Request $request)
     {
-        return view('kobiyim::auth.login');
+        return view('kobiyim.auth.login');
     }
 
     public function store(LoginRequest $request)

@@ -37,10 +37,10 @@
 	<body {{ Metronic::printAttrs('body') }} {{ Metronic::printClasses('body') }}>
 
 		@if (config('layout.page-loader.type') != '')
-			@include('kobiyim::theme.partials._page-loader')
+			@include('theme.partials._page-loader')
 		@endif
 
-		@include('kobiyim::theme.base._layout')
+		@include('theme.base._layout')
 
 		<div id="modals"></div>
 
@@ -63,7 +63,7 @@
 
 		<script src="https://js.pusher.com/7.0/pusher.min.js"></script>
 
-		@include('kobiyim::js.main')
+		@include('js.main')
 
 		@if(isset($update))
 			<div class="modal fade" id="changelog" tabindex="-1" role="dialog" aria-labelledby="exampleModalSizeLg" aria-hidden="true">

@@ -1,8 +1,8 @@
 <?php
 
-namespace Kobiyim\Http\Controllers;
+namespace App\Http\Controllers;
 
-use Kobiyim\Kobiyim\Models\Permission;
+use App\Models\Permission;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 use Yajra\DataTables\Facades\DataTables;
@@ -11,7 +11,7 @@ class PermissionController extends Controller
 {
     public function index(Request $request)
     {
-        return view('kobiyim::system.permissions.index');
+        return view('kobiyim.system.permissions.index');
     }
 
     public function json(Request $request)
@@ -19,7 +19,7 @@ class PermissionController extends Controller
         $model = Permission::query();
 
         return DataTables::eloquent($model)
-            ->addColumn('islemler', 'kobiyim::system.permissions.actions')
+            ->addColumn('islemler', 'kobiyim.system.permissions.actions')
             ->rawColumns(['islemler'])
             ->toJson();
     }

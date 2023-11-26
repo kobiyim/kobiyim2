@@ -4,7 +4,7 @@
 
 	{{-- Brand --}}
 	<div class="brand flex-column-auto {{ Metronic::printClasses('brand', false) }}" id="kt_brand">
-		@include('logo.aside')
+		@include('kobiyim.logo.aside')
 
 		@if (config('layout.aside.self.minimize.toggle'))
 			<button class="brand-toggle btn btn-sm px-0" id="kt_aside_toggle">

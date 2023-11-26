@@ -1,6 +1,6 @@
 <?php
 
-namespace Kobiyim\Auth\Services;
+namespace App\Auth\Services;
 
 class PrepareAuthenticatedSession
 {

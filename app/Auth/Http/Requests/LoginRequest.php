@@ -1,6 +1,6 @@
 <?php
 
-namespace Kobiyim\Auth\Http\Requests;
+namespace App\Auth\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

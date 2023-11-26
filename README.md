@@ -1,66 +1,186 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# KOBİYİM
+- Add your project logo.
+- Write a short introduction to the project.
+- If you are using badges, add them here.
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## :ledger: Index
 
-## About Laravel
+- [About](#beginner-about)
+- [Usage](#zap-usage)
+  - [Installation](#electric_plug-installation)
+  - [Commands](#package-commands)
+- [Development](#wrench-development)
+  - [Pre-Requisites](#notebook-pre-requisites)
+  - [Developmen Environment](#nut_and_bolt-development-environment)
+  - [File Structure](#file_folder-file-structure)
+  - [Build](#hammer-build)  
+  - [Deployment](#rocket-deployment)  
+- [Community](#cherry_blossom-community)
+  - [Contribution](#fire-contribution)
+  - [Branches](#cactus-branches)
+  - [Guideline](#exclamation-guideline)  
+- [FAQ](#question-faq)
+- [Resources](#page_facing_up-resources)
+- [Gallery](#camera-gallery)
+- [Credit/Acknowledgment](#star2-creditacknowledgment)
+- [License](#lock-license)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+##  :beginner: About
+Add a detailed introduction about the project here, everything you want the reader to know.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## :zap: Usage
+Write about how to use this project.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+###  :electric_plug: Installation
+- Steps on how to install this project, to use it.
+- Be very detailed here, For example, if you have tools which run on different operating systems, write installation steps for all of them.
 
-## Learning Laravel
+```
+$ add installations steps if you have to.
+```
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+###  :package: Commands
+- Commands to start the project.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+##  :wrench: Development
+If you want other people to contribute to this project, this is the section, make sure you always add this.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### :notebook: Pre-Requisites
+List all the pre-requisites the system needs to develop this project.
+- A tool
+- B tool
 
-## Laravel Sponsors
+###  :nut_and_bolt: Development Environment
+Write about setting up the working environment for your project.
+- How to download the project...
+- How to install dependencies...
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-### Premium Partners
+###  :file_folder: Kobiyim Dosyaları
+Kobiyim tarafından @Laravel projesine dahil edilen dosyaların listesi aşağıdaki gibidir.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+```
+.
+├── app
+│   ├── Auth
+│   │   ├── Http
+│   │   │   ├── Controllers
+│   │   │   │   ├── AuthenticatedSessionController.php
+│   │   │   │   ├── NewPasswordController.php
+│   │   │   │   ├── PasswordResetLinkController.php
+│   │   │   │   └── RegisteredUserController.php
+│   │   │   ├── Requests
+│   │   │   │   ├── LoginRequest.php
+│   │   │   │   └── RegisterRequest.php
+│   │   │   ├── Responses
+│   │   │   │   └── LockoutResponse.php
+│   │   ├── Rules
+│   │   │   └── Password.php
+│   │   ├── Services
+│   │   │   ├── AttemptToAuthenticate.php
+│   │   │   ├── CheckIP.php
+│   │   │   ├── CreatesNewUsers.php
+│   │   │   ├── EnsureLoginIsNotThrottled.php
+│   │   │   ├── LoginRateLimiter.php
+│   │   │   ├── PasswordValidationRules.php
+│   │   │   └── PrepareAuthenticatedSession.png
+│   ├── Console
+│   │   ├── Commands
+│   │   │   ├── CleanBackup.php
+│   │   │   ├── SaveBackup.php
+│   │   │   └── UploadBackup.php
+│   ├── Exceptions
+│   │   └── Handler.php
+│   ├── Http
+│   │   ├── Controllers
+│   │   │   ├── ActivityController.php
+│   │   │   ├── Controller.php
+│   │   │   ├── ModalsController.php
+│   │   │   ├── PermissionController.php
+│   │   │   ├── SystemController.php
+│   │   │   └── UserController.php
+│   ├── Metronic
+│   │   ├── Init.php
+│   │   ├── Menu.php
+│   │   └── Metronic.php
+│   ├── Models
+│   │   ├── ActivityLog.php
+│   │   ├── Permission.php
+│   │   ├── QueryLog.php
+│   │   ├── User.php
+│   │   └── UserPermission.php
+└── └── helpers.php
+```
 
-## Contributing
+| No | File Name | Details 
+|----|------------|-------|
+| 1  | index | Entry point
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+###  :hammer: Build
+Write the build Instruction here.
 
-## Code of Conduct
+### :rocket: Deployment
+Write the deployment instruction here.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## :cherry_blossom: Community
 
-## Security Vulnerabilities
+If it's open-source, talk about the community here, ask social media links and other links.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+ ###  :fire: Contribution
 
-## License
+ Your contributions are always welcome and appreciated. Following are the things you can do to contribute to this project.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+ 1. **Report a bug** <br>
+ If you think you have encountered a bug, and I should know about it, feel free to report it [here]() and I will take care of it.
+
+ 2. **Request a feature** <br>
+ You can also request for a feature [here](), and if it will viable, it will be picked for development.  
+
+ 3. **Create a pull request** <br>
+ It can't get better then this, your pull request will be appreciated by the community. You can get started by picking up any open issues from [here]() and make a pull request.
+
+ > If you are new to open-source, make sure to check read more about it [here](https://www.digitalocean.com/community/tutorial_series/an-introduction-to-open-source) and learn more about creating a pull request [here](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github).
+
+
+ ### :cactus: Branches
+
+ I use an agile continuous integration methodology, so the version is frequently updated and development is really fast.
+
+1. **`stage`** is the development branch.
+
+2. **`master`** is the production branch.
+
+3. No other permanent branches should be created in the main repository, you can create feature branches but they should get merged with the master.
+
+**Steps to work with feature branch**
+
+1. To start working on a new feature, create a new branch prefixed with `feat` and followed by feature name. (ie. `feat-FEATURE-NAME`)
+2. Once you are done with your changes, you can raise PR.
+
+**Steps to create a pull request**
+
+1. Make a PR to `stage` branch.
+2. Comply with the best practices and guidelines e.g. where the PR concerns visual elements it should have an image showing the effect.
+3. It must pass all continuous integration checks and get positive reviews.
+
+After this, changes will be merged.
+
+
+### :exclamation: Guideline
+coding guidelines or other things you want people to follow should follow.
+
+
+## :question: FAQ
+You can optionally add a FAQ section about the project.
+
+##  :page_facing_up: Resources
+Add important resources here
+
+##  :camera: Gallery
+Pictures of your project.
+
+## :star2: Credit/Acknowledgment
+Credit the authors here.
+
+##  :lock: License
+Add a license here, or a link to it.

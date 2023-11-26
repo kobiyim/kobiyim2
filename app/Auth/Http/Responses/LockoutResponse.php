@@ -1,8 +1,8 @@
 <?php
 
-namespace Kobiyim\Auth\Http\Responses;
+namespace App\Auth\Http\Responses;
 
-use Kobiyim\Auth\Services\LoginRateLimiter;
+use App\Auth\Services\LoginRateLimiter;
 use Illuminate\Contracts\Support\Responsable;
 use Illuminate\Http\Response;
 use Illuminate\Validation\ValidationException;

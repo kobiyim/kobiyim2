@@ -1,8 +1,8 @@
 <?php
 
-use Kobiyim\Models\ActivityLog;
-use Kobiyim\Models\Permission;
-use Kobiyim\Models\UserPermission;
+use App\Models\ActivityLog;
+use App\Models\Permission;
+use App\Models\UserPermission;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Auth;
 

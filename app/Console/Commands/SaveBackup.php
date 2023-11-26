@@ -1,14 +1,14 @@
 <?php
 
-namespace Kobiyim\Console\Commands;
+namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 use Spatie\DbDumper\Databases\MySql;
-use Kobiyim\Models\Backup;
+use App\Models\Backup;
 
 class SaveBackup extends Command
 {
-    protected $signature = 'kobiyim::save-backup';
+    protected $signature = 'kobiyim:save-backup';
 
     protected $description = 'Veritabanının yedeğini alın';
 
@@ -30,7 +30,7 @@ class SaveBackup extends Command
                 ->dumpToFile(storage_path('app/backup/'.$filename.'.sql'));
 
             Backup::create([
-                'file'  => $filename
+                'file'  => $filename,
                 'uploaded'  => 0
             ]);
 

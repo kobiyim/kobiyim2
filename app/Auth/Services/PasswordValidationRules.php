@@ -1,8 +1,8 @@
 <?php
 
-namespace Kobiyim\Auth\Services;
+namespace App\Auth\Services;
 
-use Kobiyim\Auth\Rules\Password;
+use App\Auth\Rules\Password;
 
 trait PasswordValidationRules
 {

@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::group([
     'middleware' => ['auth'],
+    'namespace' => 'App\Http\Controllers'
 ], function () {
     Route::get('kobiyim', 'SystemController@kobiyim')->name('kobiyim');
 
@@ -55,7 +56,7 @@ Route::group([
     Route::post('modals', '\App\Http\Controllers\ModalsController@__invoke')->name('modals');
 });
 
-Route::group(['namespace' => '\Kobiyim\Auth\Http\Controllers'], function () {
+Route::group(['namespace' => '\App\Auth\Http\Controllers'], function () {
     // Authentication...
     Route::get('login', 'AuthenticatedSessionController@create')
         ->middleware(['guest'])

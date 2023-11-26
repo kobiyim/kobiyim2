@@ -1,9 +1,9 @@
 <?php
 
-namespace Kobiyim\Http\Controllers;
+namespace App\Http\Controllers;
 
-use Kobiyim\Models\Permission;
-use Kobiyim\Models\User;
+use App\Models\Permission;
+use App\Models\User;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
@@ -23,14 +23,14 @@ class ModalsController extends Controller
     public function createUser(Request $request)
     {
         return response()->json([
-            'data' => view('kobiyim::modals.system.users.create')->render(),
+            'data' => view('kobiyim.modals.system.users.create')->render(),
         ]);
     }
 
     public function editUser(Request $request)
     {
         return response()->json([
-            'data' => view('kobiyim::modals.system.users.edit', [
+            'data' => view('kobiyim.modals.system.users.edit', [
                 'get'       => User::find($request->id)
             ])->render(),
         ]);
@@ -39,14 +39,14 @@ class ModalsController extends Controller
     public function createPermission(Request $request)
     {
         return response()->json([
-            'data' => view('kobiyim::modals.system.permissions.create')->render(),
+            'data' => view('kobiyim.modals.system.permissions.create')->render(),
         ]);
     }
 
     public function editPermission(Request $request)
     {
         return response()->json([
-            'data' => view('kobiyim::modals.system.permissions.edit', [
+            'data' => view('kobiyim.modals.system.permissions.edit', [
                 'get' => Permission::find($request->id),
             ])->render(),
         ]);

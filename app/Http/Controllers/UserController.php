@@ -1,10 +1,10 @@
 <?php
 
-namespace Kobiyim\Http\Controllers;
+namespace App\Http\Controllers;
 
-use Kobiyim\Models\Permission;
-use Kobiyim\Models\User;
-use Kobiyim\Models\UserPermission;
+use App\Models\Permission;
+use App\Models\User;
+use App\Models\UserPermission;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
@@ -15,7 +15,7 @@ class UserController extends Controller
 {
     public function index(Request $request)
     {
-        return view('kobiyim::system.users.index');
+        return view('kobiyim.system.users.index');
     }
 
     public function json(Request $request)
@@ -23,7 +23,7 @@ class UserController extends Controller
         $model = User::query();
 
         return DataTables::eloquent($model)
-            ->addColumn('islemler', 'kobiyim::system.users.actions')
+            ->addColumn('islemler', 'kobiyim.system.users.actions')
             ->setRowAttr([
                 'style' => function ($model) {
                     return ($model->is_active == '0') ? 'background-color: rgb(255,0,0,0.1);' : 'background-color: rgb(0,255,0,0.1);';
@@ -155,7 +155,7 @@ class UserController extends Controller
             'get'  => User::find($id),
         ];
 
-        return view('kobiyim::system.users.permission', $data);
+        return view('kobiyim.system.users.permission', $data);
     }
 
     public function savePermission(Request $request, $id)

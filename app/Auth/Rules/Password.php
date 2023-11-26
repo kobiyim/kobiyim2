@@ -1,6 +1,6 @@
 <?php
 
-namespace Kobiyim\Auth\Rules;
+namespace App\Auth\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
 use Illuminate\Support\Str;
