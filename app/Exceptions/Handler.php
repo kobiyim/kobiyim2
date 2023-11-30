@@ -1,11 +1,5 @@
 <?php
 
-/**
- * Güncelleme Notları
- * @version v1.0.0
- * İlk yayına alınan versiyon
- */
-
 namespace App\Exceptions;
 
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
