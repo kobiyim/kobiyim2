@@ -31,11 +31,14 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
+            "Kobiyim\\": "kobiyim/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
         },
         "files": [
-            "app/helpers.php"
+            "app/helpers.php",
+            "kobiyim/helpers.php",
+            "kobiyim/metronic/helpers.php"
         ]
     },
     "autoload-dev": {
