@@ -141,7 +141,7 @@ return [
 
     'maintenance' => [
         'driver' => 'file',
-        // 'store'  => 'redis',
+        // 'store' => 'redis',
     ],
 
     /*
@@ -183,9 +183,6 @@ return [
 
     'aliases' => Facade::defaultAliases()->merge([
         // 'Example' => App\Facades\Example::class,
-        'Form'   => \Collective\Html\FormFacade::class,
-        'Metronic' => App\Metronic\Metronic::class,
-        'Menu'     => App\Metronic\Menu::class,
     ])->toArray(),
 
 ];

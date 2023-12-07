@@ -12,13 +12,7 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule): void
     {
-        $schedule->command('kobiyim::save-backup')->dailyAt('12:45');
-        $schedule->command('kobiyim::upload-backup')->dailyAt('12:45');
-
-        $schedule->command('kobiyim::save-backup')->dailyAt('19:00');
-        $schedule->command('kobiyim::upload-backup')->dailyAt('19:00');
-
-        $schedule->command('kobiyim::clean-backup')->weeklyOn(7, '20:00');
+        // $schedule->command('inspire')->hourly();
     }
 
     /**
