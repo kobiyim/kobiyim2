@@ -2,7 +2,7 @@
 <div class="app-navbar flex-shrink-0">
     <!--begin::Search-->
     <div class="app-navbar-item align-items-stretch ms-1 ms-md-3">
-        @include('kobiyim/layout/partials/header-layout/search/_dropdown')
+        @include('kobiyim.'.config('metronic.KT_THEME_LAYOUT_DIR').'/partials/header-layout/search/_dropdown')
     </div>
     <!--end::Search-->
     <!--begin::Activities-->
@@ -48,9 +48,13 @@
     <div class="app-navbar-item ms-1 ms-md-3" id="kt_header_user_menu_toggle">
         <!--begin::Menu wrapper-->
         <div class="cursor-pointer symbol symbol-30px symbol-md-40px" data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
-			<div class="symbol-label fs-3 bg-light-primary text-primary">
-				{{ substr(Auth::user()->name, 0, 1) }}
-			</div>
+            @if(Auth::user()->profile_photo_url)
+                <img src="{{ \Auth::user()->profile_photo_url }}" alt="user"/>
+            @else
+                <div class="symbol-label fs-3 bg-light-primary text-primary">
+                    {{ substr(Auth::user()->name, 0, 1) }}
+                </div>
+            @endif
         </div>
         @include('kobiyim/partials/menus/_user-account-menu')
         <!--end::Menu wrapper-->

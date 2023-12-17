@@ -12,7 +12,7 @@
 			<!--end:Menu link-->
 			<!--begin:Menu sub-->
 			<div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown p-0 w-100 w-lg-850px">
-				@include('kobiyim/layout/partials/sidebar-layout/header/_menu/__dashboards')
+				@include('kobiyim.'.config('metronic.KT_THEME_LAYOUT_DIR').'/partials/sidebar-layout/header/_menu/__dashboards')
 			</div>
 			<!--end:Menu sub-->
 		</div>
@@ -27,7 +27,7 @@
 			<!--end:Menu link-->
 			<!--begin:Menu sub-->
 			<div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown p-0">
-				@include('kobiyim/layout/partials/sidebar-layout/header/_menu/__pages')
+				@include('kobiyim.'.config('metronic.KT_THEME_LAYOUT_DIR').'/partials/sidebar-layout/header/_menu/__pages')
 			</div>
 			<!--end:Menu sub-->
 		</div>
@@ -56,7 +56,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -68,7 +68,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -80,7 +80,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -92,7 +92,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -104,7 +104,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -116,7 +116,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -128,7 +128,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -140,7 +140,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -180,7 +180,7 @@
 								<!--begin:Menu item-->
 								<div class="menu-item">
 									<!--begin:Menu link-->
-									<a class="menu-link" href="{{ route('dashboard') }}">
+									<a class="menu-link" href="{{ route('homepage') }}">
 										<span class="menu-bullet">
 											<span class="bullet bullet-dot"></span>
 										</span>
@@ -192,7 +192,7 @@
 								<!--begin:Menu item-->
 								<div class="menu-item">
 									<!--begin:Menu link-->
-									<a class="menu-link" href="{{ route('dashboard') }}">
+									<a class="menu-link" href="{{ route('homepage') }}">
 										<span class="menu-bullet">
 											<span class="bullet bullet-dot"></span>
 										</span>
@@ -204,7 +204,7 @@
 								<!--begin:Menu item-->
 								<div class="menu-item">
 									<!--begin:Menu link-->
-									<a class="menu-link" href="{{ route('dashboard') }}">
+									<a class="menu-link" href="{{ route('homepage') }}">
 										<span class="menu-bullet">
 											<span class="bullet bullet-dot"></span>
 										</span>
@@ -216,7 +216,7 @@
 								<!--begin:Menu item-->
 								<div class="menu-item">
 									<!--begin:Menu link-->
-									<a class="menu-link" href="{{ route('dashboard') }}">
+									<a class="menu-link" href="{{ route('homepage') }}">
 										<span class="menu-bullet">
 											<span class="bullet bullet-dot"></span>
 										</span>
@@ -228,7 +228,7 @@
 								<!--begin:Menu item-->
 								<div class="menu-item">
 									<!--begin:Menu link-->
-									<a class="menu-link" href="{{ route('dashboard') }}">
+									<a class="menu-link" href="{{ route('homepage') }}">
 										<span class="menu-bullet">
 											<span class="bullet bullet-dot"></span>
 										</span>
@@ -240,7 +240,7 @@
 								<!--begin:Menu item-->
 								<div class="menu-item">
 									<!--begin:Menu link-->
-									<a class="menu-link" href="{{ route('dashboard') }}">
+									<a class="menu-link" href="{{ route('homepage') }}">
 										<span class="menu-bullet">
 											<span class="bullet bullet-dot"></span>
 										</span>
@@ -269,7 +269,7 @@
 								<!--begin:Menu item-->
 								<div class="menu-item">
 									<!--begin:Menu link-->
-									<a class="menu-link" href="{{ route('dashboard') }}">
+									<a class="menu-link" href="{{ route('homepage') }}">
 										<span class="menu-bullet">
 											<span class="bullet bullet-dot"></span>
 										</span>
@@ -281,7 +281,7 @@
 								<!--begin:Menu item-->
 								<div class="menu-item">
 									<!--begin:Menu link-->
-									<a class="menu-link" href="{{ route('dashboard') }}">
+									<a class="menu-link" href="{{ route('homepage') }}">
 										<span class="menu-bullet">
 											<span class="bullet bullet-dot"></span>
 										</span>
@@ -293,7 +293,7 @@
 								<!--begin:Menu item-->
 								<div class="menu-item">
 									<!--begin:Menu link-->
-									<a class="menu-link" href="{{ route('dashboard') }}">
+									<a class="menu-link" href="{{ route('homepage') }}">
 										<span class="menu-bullet">
 											<span class="bullet bullet-dot"></span>
 										</span>
@@ -305,7 +305,7 @@
 								<!--begin:Menu item-->
 								<div class="menu-item">
 									<!--begin:Menu link-->
-									<a class="menu-link" href="{{ route('dashboard') }}">
+									<a class="menu-link" href="{{ route('homepage') }}">
 										<span class="menu-bullet">
 											<span class="bullet bullet-dot"></span>
 										</span>
@@ -334,7 +334,7 @@
 								<!--begin:Menu item-->
 								<div class="menu-item">
 									<!--begin:Menu link-->
-									<a class="menu-link" href="{{ route('dashboard') }}">
+									<a class="menu-link" href="{{ route('homepage') }}">
 										<span class="menu-bullet">
 											<span class="bullet bullet-dot"></span>
 										</span>
@@ -346,7 +346,7 @@
 								<!--begin:Menu item-->
 								<div class="menu-item">
 									<!--begin:Menu link-->
-									<a class="menu-link" href="{{ route('dashboard') }}">
+									<a class="menu-link" href="{{ route('homepage') }}">
 										<span class="menu-bullet">
 											<span class="bullet bullet-dot"></span>
 										</span>
@@ -375,7 +375,7 @@
 								<!--begin:Menu item-->
 								<div class="menu-item">
 									<!--begin:Menu link-->
-									<a class="menu-link" href="{{ route('dashboard') }}">
+									<a class="menu-link" href="{{ route('homepage') }}">
 										<span class="menu-bullet">
 											<span class="bullet bullet-dot"></span>
 										</span>
@@ -387,7 +387,7 @@
 								<!--begin:Menu item-->
 								<div class="menu-item">
 									<!--begin:Menu link-->
-									<a class="menu-link" href="{{ route('dashboard') }}">
+									<a class="menu-link" href="{{ route('homepage') }}">
 										<span class="menu-bullet">
 											<span class="bullet bullet-dot"></span>
 										</span>
@@ -399,7 +399,7 @@
 								<!--begin:Menu item-->
 								<div class="menu-item">
 									<!--begin:Menu link-->
-									<a class="menu-link" href="{{ route('dashboard') }}">
+									<a class="menu-link" href="{{ route('homepage') }}">
 										<span class="menu-bullet">
 											<span class="bullet bullet-dot"></span>
 										</span>
@@ -411,7 +411,7 @@
 								<!--begin:Menu item-->
 								<div class="menu-item">
 									<!--begin:Menu link-->
-									<a class="menu-link" href="{{ route('dashboard') }}">
+									<a class="menu-link" href="{{ route('homepage') }}">
 										<span class="menu-bullet">
 											<span class="bullet bullet-dot"></span>
 										</span>
@@ -423,7 +423,7 @@
 								<!--begin:Menu item-->
 								<div class="menu-item">
 									<!--begin:Menu link-->
-									<a class="menu-link" href="{{ route('dashboard') }}">
+									<a class="menu-link" href="{{ route('homepage') }}">
 										<span class="menu-bullet">
 											<span class="bullet bullet-dot"></span>
 										</span>
@@ -439,7 +439,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -466,7 +466,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -491,7 +491,7 @@
 								<!--begin:Menu item-->
 								<div class="menu-item">
 									<!--begin:Menu link-->
-									<a class="menu-link" href="{{ route('dashboard') }}">
+									<a class="menu-link" href="{{ route('homepage') }}">
 										<span class="menu-bullet">
 											<span class="bullet bullet-dot"></span>
 										</span>
@@ -503,7 +503,7 @@
 								<!--begin:Menu item-->
 								<div class="menu-item">
 									<!--begin:Menu link-->
-									<a class="menu-link" href="{{ route('dashboard') }}">
+									<a class="menu-link" href="{{ route('homepage') }}">
 										<span class="menu-bullet">
 											<span class="bullet bullet-dot"></span>
 										</span>
@@ -532,7 +532,7 @@
 								<!--begin:Menu item-->
 								<div class="menu-item">
 									<!--begin:Menu link-->
-									<a class="menu-link" href="{{ route('dashboard') }}">
+									<a class="menu-link" href="{{ route('homepage') }}">
 										<span class="menu-bullet">
 											<span class="bullet bullet-dot"></span>
 										</span>
@@ -544,7 +544,7 @@
 								<!--begin:Menu item-->
 								<div class="menu-item">
 									<!--begin:Menu link-->
-									<a class="menu-link" href="{{ route('dashboard') }}">
+									<a class="menu-link" href="{{ route('homepage') }}">
 										<span class="menu-bullet">
 											<span class="bullet bullet-dot"></span>
 										</span>
@@ -560,7 +560,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -572,7 +572,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -584,7 +584,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -624,7 +624,7 @@
 								<!--begin:Menu item-->
 								<div class="menu-item">
 									<!--begin:Menu link-->
-									<a class="menu-link" href="{{ route('dashboard') }}">
+									<a class="menu-link" href="{{ route('homepage') }}">
 										<span class="menu-bullet">
 											<span class="bullet bullet-dot"></span>
 										</span>
@@ -636,7 +636,7 @@
 								<!--begin:Menu item-->
 								<div class="menu-item">
 									<!--begin:Menu link-->
-									<a class="menu-link" href="{{ route('dashboard') }}">
+									<a class="menu-link" href="{{ route('homepage') }}">
 										<span class="menu-bullet">
 											<span class="bullet bullet-dot"></span>
 										</span>
@@ -665,7 +665,7 @@
 								<!--begin:Menu item-->
 								<div class="menu-item">
 									<!--begin:Menu link-->
-									<a class="menu-link" href="{{ route('dashboard') }}">
+									<a class="menu-link" href="{{ route('homepage') }}">
 										<span class="menu-bullet">
 											<span class="bullet bullet-dot"></span>
 										</span>
@@ -677,7 +677,7 @@
 								<!--begin:Menu item-->
 								<div class="menu-item">
 									<!--begin:Menu link-->
-									<a class="menu-link" href="{{ route('dashboard') }}">
+									<a class="menu-link" href="{{ route('homepage') }}">
 										<span class="menu-bullet">
 											<span class="bullet bullet-dot"></span>
 										</span>
@@ -693,7 +693,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -720,7 +720,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -732,7 +732,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -744,7 +744,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -756,7 +756,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -783,7 +783,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -795,7 +795,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -807,7 +807,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -819,7 +819,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -846,7 +846,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -858,7 +858,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -870,7 +870,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -910,7 +910,7 @@
 								<!--begin:Menu item-->
 								<div class="menu-item">
 									<!--begin:Menu link-->
-									<a class="menu-link" href="{{ route('dashboard') }}">
+									<a class="menu-link" href="{{ route('homepage') }}">
 										<span class="menu-bullet">
 											<span class="bullet bullet-dot"></span>
 										</span>
@@ -922,7 +922,7 @@
 								<!--begin:Menu item-->
 								<div class="menu-item">
 									<!--begin:Menu link-->
-									<a class="menu-link" href="{{ route('dashboard') }}">
+									<a class="menu-link" href="{{ route('homepage') }}">
 										<span class="menu-bullet">
 											<span class="bullet bullet-dot"></span>
 										</span>
@@ -934,7 +934,7 @@
 								<!--begin:Menu item-->
 								<div class="menu-item">
 									<!--begin:Menu link-->
-									<a class="menu-link" href="{{ route('dashboard') }}">
+									<a class="menu-link" href="{{ route('homepage') }}">
 										<span class="menu-bullet">
 											<span class="bullet bullet-dot"></span>
 										</span>
@@ -950,7 +950,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -977,7 +977,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -989,7 +989,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -1001,7 +1001,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -1013,7 +1013,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -1040,7 +1040,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -1055,7 +1055,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -1067,7 +1067,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -1094,7 +1094,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -1106,7 +1106,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -1118,7 +1118,7 @@
 						<!--begin:Menu item-->
 						<div class="menu-item">
 							<!--begin:Menu link-->
-							<a class="menu-link" href="{{ route('dashboard') }}">
+							<a class="menu-link" href="{{ route('homepage') }}">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -1134,7 +1134,7 @@
 				<!--begin:Menu item-->
 				<div class="menu-item">
 					<!--begin:Menu link-->
-					<a class="menu-link" href="{{ route('dashboard') }}">
+					<a class="menu-link" href="{{ route('homepage') }}">
 						<span class="menu-icon">{!! getIcon('calendar-8', 'fs-2') !!}</span>
 						<span class="menu-title">Calendar</span>
 					</a>
@@ -1155,7 +1155,7 @@
 			<!--end:Menu link-->
 			<!--begin:Menu sub-->
 			<div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown p-0 w-100 w-lg-850px">
-				@include('kobiyim/layout/partials/sidebar-layout/header/_menu/__layouts')
+				@include('kobiyim.'.config('metronic.KT_THEME_LAYOUT_DIR').'/partials/sidebar-layout/header/_menu/__layouts')
 			</div>
 			<!--end:Menu sub-->
 		</div>

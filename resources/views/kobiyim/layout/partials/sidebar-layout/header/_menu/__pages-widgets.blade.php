@@ -5,7 +5,7 @@
 		<!--begin:Menu item-->
 		<div class="menu-item p-0 m-0">
 			<!--begin:Menu link-->
-			<a href="{{ route('dashboard') }}" class="menu-link">
+			<a href="{{ route('homepage') }}" class="menu-link">
 				<span class="menu-title">Lists</span>
 			</a>
 			<!--end:Menu link-->
@@ -14,7 +14,7 @@
 		<!--begin:Menu item-->
 		<div class="menu-item p-0 m-0">
 			<!--begin:Menu link-->
-			<a href="{{ route('dashboard') }}" class="menu-link">
+			<a href="{{ route('homepage') }}" class="menu-link">
 				<span class="menu-title">Statistics</span>
 			</a>
 			<!--end:Menu link-->
@@ -23,7 +23,7 @@
 		<!--begin:Menu item-->
 		<div class="menu-item p-0 m-0">
 			<!--begin:Menu link-->
-			<a href="{{ route('dashboard') }}" class="menu-link">
+			<a href="{{ route('homepage') }}" class="menu-link">
 				<span class="menu-title">Charts</span>
 			</a>
 			<!--end:Menu link-->
@@ -32,7 +32,7 @@
 		<!--begin:Menu item-->
 		<div class="menu-item p-0 m-0">
 			<!--begin:Menu link-->
-			<a href="{{ route('dashboard') }}" class="menu-link">
+			<a href="{{ route('homepage') }}" class="menu-link">
 				<span class="menu-title">Mixed</span>
 			</a>
 			<!--end:Menu link-->
@@ -41,7 +41,7 @@
 		<!--begin:Menu item-->
 		<div class="menu-item p-0 m-0">
 			<!--begin:Menu link-->
-			<a href="{{ route('dashboard') }}" class="menu-link">
+			<a href="{{ route('homepage') }}" class="menu-link">
 				<span class="menu-title">Tables</span>
 			</a>
 			<!--end:Menu link-->
@@ -50,7 +50,7 @@
 		<!--begin:Menu item-->
 		<div class="menu-item p-0 m-0">
 			<!--begin:Menu link-->
-			<a href="{{ route('dashboard') }}" class="menu-link">
+			<a href="{{ route('homepage') }}" class="menu-link">
 				<span class="menu-title">Feeds</span>
 			</a>
 			<!--end:Menu link-->

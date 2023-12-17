@@ -10,7 +10,7 @@
 		<!--end::Title-->
 		<!--begin::Toolbar-->
 		<div class="card-toolbar">
-			<a href="{{ route('dashboard') }}" class="btn btn-sm btn-light">View All</a>
+			<a href="{{ route('homepage') }}" class="btn btn-sm btn-light">View All</a>
 		</div>
 		<!--end::Toolbar-->
 	</div>

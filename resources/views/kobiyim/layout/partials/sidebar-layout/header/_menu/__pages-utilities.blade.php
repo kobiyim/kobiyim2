@@ -14,7 +14,7 @@
 					<!--begin:Menu item-->
 					<div class="menu-item p-0 m-0">
 						<!--begin:Menu link-->
-						<a href="{{ route('dashboard') }}" class="menu-link">
+						<a href="{{ route('homepage') }}" class="menu-link">
 							<span class="menu-title">Invite Friends</span>
 						</a>
 						<!--end:Menu link-->
@@ -23,7 +23,7 @@
 					<!--begin:Menu item-->
 					<div class="menu-item p-0 m-0">
 						<!--begin:Menu link-->
-						<a href="{{ route('dashboard') }}" class="menu-link">
+						<a href="{{ route('homepage') }}" class="menu-link">
 							<span class="menu-title">View Users</span>
 						</a>
 						<!--end:Menu link-->
@@ -32,7 +32,7 @@
 					<!--begin:Menu item-->
 					<div class="menu-item p-0 m-0">
 						<!--begin:Menu link-->
-						<a href="{{ route('dashboard') }}" class="menu-link">
+						<a href="{{ route('homepage') }}" class="menu-link">
 							<span class="menu-title">Select Users</span>
 						</a>
 						<!--end:Menu link-->
@@ -41,7 +41,7 @@
 					<!--begin:Menu item-->
 					<div class="menu-item p-0 m-0">
 						<!--begin:Menu link-->
-						<a href="{{ route('dashboard') }}" class="menu-link">
+						<a href="{{ route('homepage') }}" class="menu-link">
 							<span class="menu-title">Upgrade Plan</span>
 						</a>
 						<!--end:Menu link-->
@@ -50,7 +50,7 @@
 					<!--begin:Menu item-->
 					<div class="menu-item p-0 m-0">
 						<!--begin:Menu link-->
-						<a href="{{ route('dashboard') }}" class="menu-link">
+						<a href="{{ route('homepage') }}" class="menu-link">
 							<span class="menu-title">Share & Earn</span>
 						</a>
 						<!--end:Menu link-->
@@ -59,7 +59,7 @@
 					<!--begin:Menu item-->
 					<div class="menu-item p-0 m-0">
 						<!--begin:Menu link-->
-						<a href="{{ route('dashboard') }}" class="menu-link">
+						<a href="{{ route('homepage') }}" class="menu-link">
 							<span class="menu-title">New Target</span>
 						</a>
 						<!--end:Menu link-->
@@ -68,7 +68,7 @@
 					<!--begin:Menu item-->
 					<div class="menu-item p-0 m-0">
 						<!--begin:Menu link-->
-						<a href="{{ route('dashboard') }}" class="menu-link">
+						<a href="{{ route('homepage') }}" class="menu-link">
 							<span class="menu-title">New Card</span>
 						</a>
 						<!--end:Menu link-->
@@ -77,7 +77,7 @@
 					<!--begin:Menu item-->
 					<div class="menu-item p-0 m-0">
 						<!--begin:Menu link-->
-						<a href="{{ route('dashboard') }}" class="menu-link">
+						<a href="{{ route('homepage') }}" class="menu-link">
 							<span class="menu-title">New Address</span>
 						</a>
 						<!--end:Menu link-->
@@ -86,7 +86,7 @@
 					<!--begin:Menu item-->
 					<div class="menu-item p-0 m-0">
 						<!--begin:Menu link-->
-						<a href="{{ route('dashboard') }}" class="menu-link">
+						<a href="{{ route('homepage') }}" class="menu-link">
 							<span class="menu-title">Create API Key</span>
 						</a>
 						<!--end:Menu link-->
@@ -95,7 +95,7 @@
 					<!--begin:Menu item-->
 					<div class="menu-item p-0 m-0">
 						<!--begin:Menu link-->
-						<a href="{{ route('dashboard') }}" class="menu-link">
+						<a href="{{ route('homepage') }}" class="menu-link">
 							<span class="menu-title">Bidding</span>
 						</a>
 						<!--end:Menu link-->
@@ -115,7 +115,7 @@
 					<!--begin:Menu item-->
 					<div class="menu-item p-0 m-0">
 						<!--begin:Menu link-->
-						<a href="{{ route('dashboard') }}" class="menu-link">
+						<a href="{{ route('homepage') }}" class="menu-link">
 							<span class="menu-title">Create App</span>
 						</a>
 						<!--end:Menu link-->
@@ -124,7 +124,7 @@
 					<!--begin:Menu item-->
 					<div class="menu-item p-0 m-0">
 						<!--begin:Menu link-->
-						<a href="{{ route('dashboard') }}" class="menu-link">
+						<a href="{{ route('homepage') }}" class="menu-link">
 							<span class="menu-title">Create Campaign</span>
 						</a>
 						<!--end:Menu link-->
@@ -133,7 +133,7 @@
 					<!--begin:Menu item-->
 					<div class="menu-item p-0 m-0">
 						<!--begin:Menu link-->
-						<a href="{{ route('dashboard') }}" class="menu-link">
+						<a href="{{ route('homepage') }}" class="menu-link">
 							<span class="menu-title">Create Business Acc</span>
 						</a>
 						<!--end:Menu link-->
@@ -142,7 +142,7 @@
 					<!--begin:Menu item-->
 					<div class="menu-item p-0 m-0">
 						<!--begin:Menu link-->
-						<a href="{{ route('dashboard') }}" class="menu-link">
+						<a href="{{ route('homepage') }}" class="menu-link">
 							<span class="menu-title">Create Project</span>
 						</a>
 						<!--end:Menu link-->
@@ -151,7 +151,7 @@
 					<!--begin:Menu item-->
 					<div class="menu-item p-0 m-0">
 						<!--begin:Menu link-->
-						<a href="{{ route('dashboard') }}" class="menu-link">
+						<a href="{{ route('homepage') }}" class="menu-link">
 							<span class="menu-title">Top Up Wallet</span>
 						</a>
 						<!--end:Menu link-->
@@ -160,7 +160,7 @@
 					<!--begin:Menu item-->
 					<div class="menu-item p-0 m-0">
 						<!--begin:Menu link-->
-						<a href="{{ route('dashboard') }}" class="menu-link">
+						<a href="{{ route('homepage') }}" class="menu-link">
 							<span class="menu-title">Offer a Deal</span>
 						</a>
 						<!--end:Menu link-->
@@ -169,7 +169,7 @@
 					<!--begin:Menu item-->
 					<div class="menu-item p-0 m-0">
 						<!--begin:Menu link-->
-						<a href="{{ route('dashboard') }}" class="menu-link">
+						<a href="{{ route('homepage') }}" class="menu-link">
 							<span class="menu-title">Two Factor Auth</span>
 						</a>
 						<!--end:Menu link-->
@@ -185,7 +185,7 @@
 					<!--begin:Menu item-->
 					<div class="menu-item p-0 m-0">
 						<!--begin:Menu link-->
-						<a href="{{ route('dashboard') }}" class="menu-link">
+						<a href="{{ route('homepage') }}" class="menu-link">
 							<span class="menu-title">Horizontal</span>
 						</a>
 						<!--end:Menu link-->
@@ -194,7 +194,7 @@
 					<!--begin:Menu item-->
 					<div class="menu-item p-0 m-0">
 						<!--begin:Menu link-->
-						<a href="{{ route('dashboard') }}" class="menu-link">
+						<a href="{{ route('homepage') }}" class="menu-link">
 							<span class="menu-title">Vertical</span>
 						</a>
 						<!--end:Menu link-->
@@ -203,7 +203,7 @@
 					<!--begin:Menu item-->
 					<div class="menu-item p-0 m-0">
 						<!--begin:Menu link-->
-						<a href="{{ route('dashboard') }}" class="menu-link">
+						<a href="{{ route('homepage') }}" class="menu-link">
 							<span class="menu-title">Users</span>
 						</a>
 						<!--end:Menu link-->
@@ -212,7 +212,7 @@
 					<!--begin:Menu item-->
 					<div class="menu-item p-0 m-0">
 						<!--begin:Menu link-->
-						<a href="{{ route('dashboard') }}" class="menu-link">
+						<a href="{{ route('homepage') }}" class="menu-link">
 							<span class="menu-title">Select Location</span>
 						</a>
 						<!--end:Menu link-->
@@ -232,7 +232,7 @@
 					<!--begin:Menu item-->
 					<div class="menu-item p-0 m-0">
 						<!--begin:Menu link-->
-						<a href="{{ route('dashboard') }}" class="menu-link">
+						<a href="{{ route('homepage') }}" class="menu-link">
 							<span class="menu-title">Horizontal</span>
 						</a>
 						<!--end:Menu link-->
@@ -241,7 +241,7 @@
 					<!--begin:Menu item-->
 					<div class="menu-item p-0 m-0">
 						<!--begin:Menu link-->
-						<a href="{{ route('dashboard') }}" class="menu-link">
+						<a href="{{ route('homepage') }}" class="menu-link">
 							<span class="menu-title">Vertical</span>
 						</a>
 						<!--end:Menu link-->
@@ -250,7 +250,7 @@
 					<!--begin:Menu item-->
 					<div class="menu-item p-0 m-0">
 						<!--begin:Menu link-->
-						<a href="{{ route('dashboard') }}" class="menu-link">
+						<a href="{{ route('homepage') }}" class="menu-link">
 							<span class="menu-title">Two Factor Auth</span>
 						</a>
 						<!--end:Menu link-->
@@ -259,7 +259,7 @@
 					<!--begin:Menu item-->
 					<div class="menu-item p-0 m-0">
 						<!--begin:Menu link-->
-						<a href="{{ route('dashboard') }}" class="menu-link">
+						<a href="{{ route('homepage') }}" class="menu-link">
 							<span class="menu-title">Create App</span>
 						</a>
 						<!--end:Menu link-->
@@ -268,7 +268,7 @@
 					<!--begin:Menu item-->
 					<div class="menu-item p-0 m-0">
 						<!--begin:Menu link-->
-						<a href="{{ route('dashboard') }}" class="menu-link">
+						<a href="{{ route('homepage') }}" class="menu-link">
 							<span class="menu-title">Create Campaign</span>
 						</a>
 						<!--end:Menu link-->
@@ -277,7 +277,7 @@
 					<!--begin:Menu item-->
 					<div class="menu-item p-0 m-0">
 						<!--begin:Menu link-->
-						<a href="{{ route('dashboard') }}" class="menu-link">
+						<a href="{{ route('homepage') }}" class="menu-link">
 							<span class="menu-title">Create Account</span>
 						</a>
 						<!--end:Menu link-->
@@ -286,7 +286,7 @@
 					<!--begin:Menu item-->
 					<div class="menu-item p-0 m-0">
 						<!--begin:Menu link-->
-						<a href="{{ route('dashboard') }}" class="menu-link">
+						<a href="{{ route('homepage') }}" class="menu-link">
 							<span class="menu-title">Create Project</span>
 						</a>
 						<!--end:Menu link-->
@@ -295,7 +295,7 @@
 					<!--begin:Menu item-->
 					<div class="menu-item p-0 m-0">
 						<!--begin:Menu link-->
-						<a href="{{ route('dashboard') }}" class="menu-link">
+						<a href="{{ route('homepage') }}" class="menu-link">
 							<span class="menu-title">Top Up Wallet</span>
 						</a>
 						<!--end:Menu link-->
@@ -304,7 +304,7 @@
 					<!--begin:Menu item-->
 					<div class="menu-item p-0 m-0">
 						<!--begin:Menu link-->
-						<a href="{{ route('dashboard') }}" class="menu-link">
+						<a href="{{ route('homepage') }}" class="menu-link">
 							<span class="menu-title">Offer a Deal</span>
 						</a>
 						<!--end:Menu link-->

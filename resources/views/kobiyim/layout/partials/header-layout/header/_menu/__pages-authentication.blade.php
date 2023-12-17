@@ -10,7 +10,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">Sign-in</span>
 				</a>
 				<!--end:Menu link-->
@@ -19,7 +19,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">Sign-up</span>
 				</a>
 				<!--end:Menu link-->
@@ -28,7 +28,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">Two-steps</span>
 				</a>
 				<!--end:Menu link-->
@@ -37,7 +37,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">Reset Password</span>
 				</a>
 				<!--end:Menu link-->
@@ -46,7 +46,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">New Password</span>
 				</a>
 				<!--end:Menu link-->
@@ -62,7 +62,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">Sign-in</span>
 				</a>
 				<!--end:Menu link-->
@@ -71,7 +71,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">Sign-up</span>
 				</a>
 				<!--end:Menu link-->
@@ -80,7 +80,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">Two-steps</span>
 				</a>
 				<!--end:Menu link-->
@@ -89,7 +89,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">Reset Password</span>
 				</a>
 				<!--end:Menu link-->
@@ -98,7 +98,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">New Password</span>
 				</a>
 				<!--end:Menu link-->
@@ -118,7 +118,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">Sign-in</span>
 				</a>
 				<!--end:Menu link-->
@@ -127,7 +127,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">Sign-up</span>
 				</a>
 				<!--end:Menu link-->
@@ -136,7 +136,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">Two-steps</span>
 				</a>
 				<!--end:Menu link-->
@@ -145,7 +145,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">Reset Password</span>
 				</a>
 				<!--end:Menu link-->
@@ -154,7 +154,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">New Password</span>
 				</a>
 				<!--end:Menu link-->
@@ -170,7 +170,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">Sign-in</span>
 				</a>
 				<!--end:Menu link-->
@@ -179,7 +179,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">Sign-up</span>
 				</a>
 				<!--end:Menu link-->
@@ -188,7 +188,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">Two-steps</span>
 				</a>
 				<!--end:Menu link-->
@@ -197,7 +197,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">Reset Password</span>
 				</a>
 				<!--end:Menu link-->
@@ -206,7 +206,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">New Password</span>
 				</a>
 				<!--end:Menu link-->
@@ -226,7 +226,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">Multi-steps Sign-up</span>
 				</a>
 				<!--end:Menu link-->
@@ -235,7 +235,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">Two Factor Auth</span>
 				</a>
 				<!--end:Menu link-->
@@ -244,7 +244,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">Welcome Message</span>
 				</a>
 				<!--end:Menu link-->
@@ -253,7 +253,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">Verify Email</span>
 				</a>
 				<!--end:Menu link-->
@@ -262,7 +262,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">Coming Soon</span>
 				</a>
 				<!--end:Menu link-->
@@ -271,7 +271,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">Password Confirmation</span>
 				</a>
 				<!--end:Menu link-->
@@ -280,7 +280,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">Account Deactivation</span>
 				</a>
 				<!--end:Menu link-->
@@ -289,7 +289,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">Error 404</span>
 				</a>
 				<!--end:Menu link-->
@@ -298,7 +298,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">Error 500</span>
 				</a>
 				<!--end:Menu link-->
@@ -318,7 +318,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">Welcome Message</span>
 				</a>
 				<!--end:Menu link-->
@@ -327,7 +327,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">Reset Password</span>
 				</a>
 				<!--end:Menu link-->
@@ -336,7 +336,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">Subscription Confirmed</span>
 				</a>
 				<!--end:Menu link-->
@@ -345,7 +345,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">Credit Card Declined</span>
 				</a>
 				<!--end:Menu link-->
@@ -354,7 +354,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">Promo 1</span>
 				</a>
 				<!--end:Menu link-->
@@ -363,7 +363,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">Promo 2</span>
 				</a>
 				<!--end:Menu link-->
@@ -372,7 +372,7 @@
 			<!--begin:Menu item-->
 			<div class="menu-item p-0 m-0">
 				<!--begin:Menu link-->
-				<a href="{{ route('dashboard') }}" class="menu-link">
+				<a href="{{ route('homepage') }}" class="menu-link">
 					<span class="menu-title">Promo 3</span>
 				</a>
 				<!--end:Menu link-->

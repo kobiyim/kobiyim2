@@ -35,27 +35,27 @@
 	<div class="tab-content py-4 py-lg-8 px-lg-7">
 		<!--begin:Tab pane-->
 		<div class="tab-pane active w-lg-1000px" id="kt_app_header_menu_pages_pages">
-			@include('kobiyim/layout/partials/header-layout/header/_menu/__pages-general')
+			@include('kobiyim.'.config('metronic.KT_THEME_LAYOUT_DIR').'/partials/header-layout/header/_menu/__pages-general')
 		</div>
 		<!--end:Tab pane-->
 		<!--begin:Tab pane-->
 		<div class="tab-pane w-lg-600px" id="kt_app_header_menu_pages_account">
-			@include('kobiyim/layout/partials/header-layout/header/_menu/__pages-account')
+			@include('kobiyim.'.config('metronic.KT_THEME_LAYOUT_DIR').'/partials/header-layout/header/_menu/__pages-account')
 		</div>
 		<!--end:Tab pane-->
 		<!--begin:Tab pane-->
 		<div class="tab-pane w-lg-1000px" id="kt_app_header_menu_pages_authentication">
-			@include('kobiyim/layout/partials/header-layout/header/_menu/__pages-authentication')
+			@include('kobiyim.'.config('metronic.KT_THEME_LAYOUT_DIR').'/partials/header-layout/header/_menu/__pages-authentication')
 		</div>
 		<!--end:Tab pane-->
 		<!--begin:Tab pane-->
 		<div class="tab-pane w-lg-1000px" id="kt_app_header_menu_pages_utilities">
-			@include('kobiyim/layout/partials/header-layout/header/_menu/__pages-utilities')
+			@include('kobiyim.'.config('metronic.KT_THEME_LAYOUT_DIR').'/partials/header-layout/header/_menu/__pages-utilities')
 		</div>
 		<!--end:Tab pane-->
 		<!--begin:Tab pane-->
 		<div class="tab-pane w-lg-500px" id="kt_app_header_menu_pages_widgets">
-			@include('kobiyim/layout/partials/header-layout/header/_menu/__pages-widgets')
+			@include('kobiyim.'.config('metronic.KT_THEME_LAYOUT_DIR').'/partials/header-layout/header/_menu/__pages-widgets')
 		</div>
 		<!--end:Tab pane-->
 	</div>

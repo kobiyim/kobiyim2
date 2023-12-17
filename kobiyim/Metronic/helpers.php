@@ -3,31 +3,25 @@
 if (!function_exists('theme')) {
     function theme()
     {
-        return app(Kobiyim\Metronic\Theme::class);
+        return app(Kobiyim\Metronic\Core\Theme::class);
     }
 }
 
-
 if (!function_exists('getName')) {
     /**
-     * Get product name
+     * Get product name.
      *
      * @return void
      */
     function getName()
     {
-        return config('settings.KT_THEME');
+        return config('metronic.KT_THEME');
     }
 }
 
-
 if (!function_exists('addHtmlAttribute')) {
     /**
-     * Add HTML attributes by scope
-     *
-     * @param $scope
-     * @param $name
-     * @param $value
+     * Add HTML attributes by scope.
      *
      * @return void
      */
@@ -37,13 +31,9 @@ if (!function_exists('addHtmlAttribute')) {
     }
 }
 
-
 if (!function_exists('addHtmlAttributes')) {
     /**
-     * Add multiple HTML attributes by scope
-     *
-     * @param $scope
-     * @param $attributes
+     * Add multiple HTML attributes by scope.
      *
      * @return void
      */
@@ -53,13 +43,9 @@ if (!function_exists('addHtmlAttributes')) {
     }
 }
 
-
 if (!function_exists('addHtmlClass')) {
     /**
-     * Add HTML class by scope
-     *
-     * @param $scope
-     * @param $value
+     * Add HTML class by scope.
      *
      * @return void
      */
@@ -69,12 +55,9 @@ if (!function_exists('addHtmlClass')) {
     }
 }
 
-
 if (!function_exists('printHtmlAttributes')) {
     /**
-     * Print HTML attributes for the HTML template
-     *
-     * @param $scope
+     * Print HTML attributes for the HTML template.
      *
      * @return string
      */
@@ -84,13 +67,9 @@ if (!function_exists('printHtmlAttributes')) {
     }
 }
 
-
 if (!function_exists('printHtmlClasses')) {
     /**
-     * Print HTML classes for the HTML template
-     *
-     * @param $scope
-     * @param $full
+     * Print HTML classes for the HTML template.
      *
      * @return string
      */
@@ -100,14 +79,9 @@ if (!function_exists('printHtmlClasses')) {
     }
 }
 
-
 if (!function_exists('getSvgIcon')) {
     /**
-     * Get SVG icon content
-     *
-     * @param $path
-     * @param $classNames
-     * @param $folder
+     * Get SVG icon content.
      *
      * @return string
      */
@@ -117,12 +91,9 @@ if (!function_exists('getSvgIcon')) {
     }
 }
 
-
 if (!function_exists('setModeSwitch')) {
     /**
-     * Set dark mode enabled status
-     *
-     * @param $flag
+     * Set dark mode enabled status.
      *
      * @return void
      */
@@ -132,10 +103,9 @@ if (!function_exists('setModeSwitch')) {
     }
 }
 
-
 if (!function_exists('isModeSwitchEnabled')) {
     /**
-     * Check dark mode status
+     * Check dark mode status.
      *
      * @return void
      */
@@ -145,12 +115,9 @@ if (!function_exists('isModeSwitchEnabled')) {
     }
 }
 
-
 if (!function_exists('setModeDefault')) {
     /**
-     * Set the mode to dark or light
-     *
-     * @param $mode
+     * Set the mode to dark or light.
      *
      * @return void
      */
@@ -160,10 +127,9 @@ if (!function_exists('setModeDefault')) {
     }
 }
 
-
 if (!function_exists('getModeDefault')) {
     /**
-     * Get current mode
+     * Get current mode.
      *
      * @return void
      */
@@ -173,12 +139,9 @@ if (!function_exists('getModeDefault')) {
     }
 }
 
-
 if (!function_exists('setDirection')) {
     /**
-     * Set style direction
-     *
-     * @param $direction
+     * Set style direction.
      *
      * @return void
      */
@@ -188,10 +151,9 @@ if (!function_exists('setDirection')) {
     }
 }
 
-
 if (!function_exists('getDirection')) {
     /**
-     * Get style direction
+     * Get style direction.
      *
      * @return void
      */
@@ -201,10 +163,9 @@ if (!function_exists('getDirection')) {
     }
 }
 
-
 if (!function_exists('isRtlDirection')) {
     /**
-     * Check if style direction is RTL
+     * Check if style direction is RTL.
      *
      * @return void
      */
@@ -214,12 +175,9 @@ if (!function_exists('isRtlDirection')) {
     }
 }
 
-
 if (!function_exists('extendCssFilename')) {
     /**
-     * Extend CSS file name with RTL or dark mode
-     *
-     * @param $path
+     * Extend CSS file name with RTL or dark mode.
      *
      * @return void
      */
@@ -229,10 +187,9 @@ if (!function_exists('extendCssFilename')) {
     }
 }
 
-
 if (!function_exists('includeFavicon')) {
     /**
-     * Include favicon from settings
+     * Include favicon from settings.
      *
      * @return string
      */
@@ -242,10 +199,9 @@ if (!function_exists('includeFavicon')) {
     }
 }
 
-
 if (!function_exists('includeFonts')) {
     /**
-     * Include the fonts from settings
+     * Include the fonts from settings.
      *
      * @return string
      */
@@ -255,12 +211,9 @@ if (!function_exists('includeFonts')) {
     }
 }
 
-
 if (!function_exists('getGlobalAssets')) {
     /**
-     * Get the global assets
-     *
-     * @param $type
+     * Get the global assets.
      *
      * @return array
      */
@@ -270,12 +223,9 @@ if (!function_exists('getGlobalAssets')) {
     }
 }
 
-
 if (!function_exists('addVendors')) {
     /**
-     * Add multiple vendors to the page by name. Refer to settings KT_THEME_VENDORS
-     *
-     * @param $vendors
+     * Add multiple vendors to the page by name. Refer to settings KT_THEME_VENDORS.
      *
      * @return void
      */
@@ -285,12 +235,9 @@ if (!function_exists('addVendors')) {
     }
 }
 
-
 if (!function_exists('addVendor')) {
     /**
-     * Add single vendor to the page by name. Refer to settings KT_THEME_VENDORS
-     *
-     * @param $vendor
+     * Add single vendor to the page by name. Refer to settings KT_THEME_VENDORS.
      *
      * @return void
      */
@@ -300,12 +247,9 @@ if (!function_exists('addVendor')) {
     }
 }
 
-
 if (!function_exists('addJavascriptFile')) {
     /**
-     * Add custom javascript file to the page
-     *
-     * @param $file
+     * Add custom javascript file to the page.
      *
      * @return void
      */
@@ -315,12 +259,9 @@ if (!function_exists('addJavascriptFile')) {
     }
 }
 
-
 if (!function_exists('addCssFile')) {
     /**
-     * Add custom CSS file to the page
-     *
-     * @param $file
+     * Add custom CSS file to the page.
      *
      * @return void
      */
@@ -330,12 +271,9 @@ if (!function_exists('addCssFile')) {
     }
 }
 
-
 if (!function_exists('getVendors')) {
     /**
-     * Get vendor files from settings. Refer to settings KT_THEME_VENDORS
-     *
-     * @param $type
+     * Get vendor files from settings. Refer to settings KT_THEME_VENDORS.
      *
      * @return array
      */
@@ -345,10 +283,9 @@ if (!function_exists('getVendors')) {
     }
 }
 
-
 if (!function_exists('getCustomJs')) {
     /**
-     * Get custom js files from the settings
+     * Get custom js files from the settings.
      *
      * @return array
      */
@@ -358,10 +295,9 @@ if (!function_exists('getCustomJs')) {
     }
 }
 
-
 if (!function_exists('getCustomCss')) {
     /**
-     * Get custom css files from the settings
+     * Get custom css files from the settings.
      *
      * @return array
      */
@@ -371,13 +307,9 @@ if (!function_exists('getCustomCss')) {
     }
 }
 
-
 if (!function_exists('getHtmlAttribute')) {
     /**
-     * Get HTML attribute based on the scope
-     *
-     * @param $scope
-     * @param $attribute
+     * Get HTML attribute based on the scope.
      *
      * @return array
      */
@@ -387,14 +319,9 @@ if (!function_exists('getHtmlAttribute')) {
     }
 }
 
-
 if (!function_exists('isUrl')) {
     /**
-     * Get HTML attribute based on the scope
-     *
-     * @param $url
-     *
-     * @return mixed
+     * Get HTML attribute based on the scope.
      */
     function isUrl($url)
     {
@@ -402,12 +329,9 @@ if (!function_exists('isUrl')) {
     }
 }
 
-
 if (!function_exists('image')) {
     /**
-     * Get image url by path
-     *
-     * @param $path
+     * Get image url by path.
      *
      * @return string
      */
@@ -417,37 +341,14 @@ if (!function_exists('image')) {
     }
 }
 
-
 if (!function_exists('getIcon')) {
     /**
-     * Get icon
-     *
-     * @param $path
+     * Get icon.
      *
      * @return string
      */
     function getIcon($name, $class = '', $type = '', $tag = 'span')
     {
-        $type = config('metronic.KT_THEME_ICONS', 'duotone');
-
-        if ($type === 'duotone') {
-            $icons = cache()->remember('duotone-icons', 3600, function () {
-                return json_decode(file_get_contents(public_path('assets/icons.json')), true);
-            });
-
-            $pathsNumber = data_get($icons, 'duotone-paths.'.$name, 0);
-
-            $output = '<'.$tag.' class="ki-'.$type.' ki-'.$name.(!empty($class) ? " ".$class : '').'">';
-
-            for ($i = 0; $i < $pathsNumber; $i++) {
-                $output .= '<'.$tag.' class="path'.($i + 1).'"></'.$tag.'>';
-            }
-
-            $output .= '</'.$tag.'>';
-        } else {
-            $output = '<'.$tag.' class="ki-'.$type.' ki-'.$name.(!empty($class) ? " ".$class : '').'"></'.$tag.'>';
-        }
-
-        return $output;
+        return theme()->getIcon($name, $class, $type, $tag);
     }
 }

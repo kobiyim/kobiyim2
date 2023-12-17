@@ -15,18 +15,18 @@
 	<div data-kt-search-element="content" class="menu menu-sub menu-sub-dropdown p-7 w-325px w-md-375px">
 		<!--begin::Wrapper-->
 		<div data-kt-search-element="wrapper">
-			@include('kobiyim/layout/partials/header-layout/search/partials/_form-dropdown')
+			@include('kobiyim.'.config('metronic.KT_THEME_LAYOUT_DIR').'/partials/header-layout/search/partials/_form-dropdown')
 
-			@include('kobiyim/layout/partials/header-layout/search/partials/_results')
+			@include('kobiyim.'.config('metronic.KT_THEME_LAYOUT_DIR').'/partials/header-layout/search/partials/_results')
 
-			@include('kobiyim/layout/partials/header-layout/search/partials/_main')
+			@include('kobiyim.'.config('metronic.KT_THEME_LAYOUT_DIR').'/partials/header-layout/search/partials/_main')
 
-			@include('kobiyim/layout/partials/header-layout/search/partials/_empty')
+			@include('kobiyim.'.config('metronic.KT_THEME_LAYOUT_DIR').'/partials/header-layout/search/partials/_empty')
 		</div>
 		<!--end::Wrapper-->
-		@include('kobiyim/layout/partials/header-layout/search/partials/_advanced-options')
+		@include('kobiyim.'.config('metronic.KT_THEME_LAYOUT_DIR').'/partials/header-layout/search/partials/_advanced-options')
 
-		@include('kobiyim/layout/partials/header-layout/search/partials/_preferences')
+		@include('kobiyim.'.config('metronic.KT_THEME_LAYOUT_DIR').'/partials/header-layout/search/partials/_preferences')
 	</div>
 	<!--end::Menu-->
 </div>

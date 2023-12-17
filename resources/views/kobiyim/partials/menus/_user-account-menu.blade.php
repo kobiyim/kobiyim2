@@ -5,9 +5,13 @@
         <div class="menu-content d-flex align-items-center px-3">
             <!--begin::Avatar-->
             <div class="symbol symbol-50px me-5">
-				<div class="symbol-label fs-3 bg-light-primary text-primary">
-					{{ substr(Auth::user()->name, 0, 1) }}
-				</div>
+                @if(Auth::user()->profile_photo_url)
+                    <img alt="Logo" src="{{ Auth::user()->profile_photo_url }}"/>
+                @else
+                    <div class="symbol-label fs-3 bg-light-primary text-primary">
+                        {{ substr(Auth::user()->name, 0, 1) }}
+                    </div>
+                @endif
             </div>
             <!--end::Avatar-->
             <!--begin::Username-->
